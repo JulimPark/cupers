@@ -3,6 +3,8 @@ import flet as ft
 
 def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
+    page.title = "Flet counter example"
+    page.theme_mode = ft.ThemeMode.LIGHT
 
     def dialog_dismissed(e):
         page.add(ft.Text("Dialog dismissed"))
