@@ -90,6 +90,3 @@ jobs:
         with:
           artifact_name: web-build-artifact
         
-        with:
-          artifact_name: web-build-artifact
-        
