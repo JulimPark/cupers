@@ -35,6 +35,7 @@ def main(page: ft.Page):
             on_click=lambda e: page.open(cupertino_alert_dialog),
         )
     )
+    page.update()
 
 
 ft.app(main, view=ft.AppView.WEB_BROWSER)
