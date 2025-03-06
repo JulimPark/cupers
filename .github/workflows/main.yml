@@ -81,7 +81,8 @@ jobs:
     steps:
       - name: Setup Pages
         uses: actions/configure-pages@v5
-        
+        with:
+          enablement: true
       - name: Deploy to GitHub Pages 🚀
         if: github.event_name == 'push'  # deploy only on push
         id: deployment
