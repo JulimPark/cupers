@@ -28,7 +28,8 @@ def main(page: ft.Page):
             ),
         ],
     )
-
+    su = ft.Text('SUPER TEXT',color='red')
+    page.add(su)
     page.add(
         ft.CupertinoFilledButton(
             text="Open CupertinoAlertDialog",
